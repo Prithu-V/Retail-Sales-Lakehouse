@@ -138,15 +138,6 @@ Actual file extensions and names may vary based on how Databricks exports or sto
 
 The exact execution order and pipeline settings depend on the Databricks workspace. Do not run the steps blindly in a different environment without checking catalog and volume configuration.
 
-## Future improvements
-
-- Add automated assertions for required columns, accepted transaction categories, and key metric reconciliations.
-- Investigate the negative-price and extreme-quantity records and document their business meaning.
-- Define a source-supported transaction-line key before deciding whether any duplicate rows should be removed.
-- Add a repeatable refresh strategy for Gold tables.
-- Capture screenshots of the pipeline, table lineage, and Gold outputs.
-- Add a dashboard for sales trends, products, customers, and country performance.
-
 ## Project status
 
 This is a portfolio and learning project. It demonstrates a layered data workflow and business-oriented analytical tables. It should not be described as production-ready without further operational, security, testing, and incremental-refresh work.
